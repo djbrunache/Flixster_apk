@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="Movie"
+            type="com.codepath.bourdeau_melinda.flixsterapk.models.Movie" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".DetailActivity">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/player"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="@{Movie.title}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            tools:text='Fast Furious Presents: Hobbs Shaw' />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:numStars="10"
+            android:rating="@{(float)Movie.rating}" />
+
+        <TextView
+            android:id="@+id/tvOverview"
+            android:text="@{Movie.overview}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="A spinoff of The Fate of the Furious, focusing on Johnson's US Diplomatic Security Agent Luke Hobbs forming an unlikely alliance with Statham's Deckard Shaw" />
+    </LinearLayout>
+</layout>

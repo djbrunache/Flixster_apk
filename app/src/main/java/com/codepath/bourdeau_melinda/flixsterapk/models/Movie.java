@@ -3,15 +3,22 @@ package com.codepath.bourdeau_melinda.flixsterapk.models;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Parcel
 public class Movie {
+    int movieId;
     String Back;
     String Poster;
     String title;
     String overview;
+    double rating;
+
+    // empty constructor needed by the parceler library
+    public Movie() {}
 
     public Movie(JSONObject jsonObject){
         try {
@@ -19,6 +26,8 @@ public class Movie {
             Poster = jsonObject.getString("poster_path");
             title = jsonObject.getString("title");
             overview = jsonObject.getString("overview");
+            rating = jsonObject.getDouble("vote_average");
+            movieId = jsonObject.getInt("id");
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -46,5 +55,13 @@ public class Movie {
 
     public String getOverview() {
         return overview;
+    }
+
+    public double getRating() {
+        return rating;
+    }
+
+    public int getMovieId() {
+        return movieId;
     }
 }

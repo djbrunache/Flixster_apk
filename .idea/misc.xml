@@ -5,10 +5,16 @@
       <map>
         <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout-land/fiveormorestars.xml" value="0.17724867724867724" />
         <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout-land/item_movie.xml" value="0.1" />
+        <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout-land/item_movie_popular.xml" value="0.1" />
         <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout-land/lessthan5stars.xml" value="0.17724867724867724" />
+        <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout-land/popular_item_movie.xml" value="0.1" />
+        <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout/activity_detail.xml" value="0.18" />
+        <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout/activity_main.xml" value="0.11503623188405797" />
         <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout/fiveormorestars.xml" value="0.1046875" />
         <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout/item_movie.xml" value="0.1" />
+        <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout/item_movie_popular.xml" value="0.1" />
         <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout/lessthan5stars.xml" value="0.209375" />
+        <entry key="..\:/Users/Bourdeau-Melinda/AndroidStudioProjects/Flixsterapk/app/src/main/res/layout/popular_item_movie.xml" value="0.1" />
       </map>
     </option>
   </component>
